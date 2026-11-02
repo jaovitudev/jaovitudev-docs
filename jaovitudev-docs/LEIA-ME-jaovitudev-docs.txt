@@ -1,0 +1,11 @@
+jaovitudev-docs — teste desktop Windows
+
+1. Abra jaovitudev-docs.exe (Windows 10/11, 64 bits).
+2. Aguarde o primeiro início e abra http://127.0.0.1:8000 se o navegador não abrir sozinho.
+3. Para encerrar, feche a janela preta do aplicativo.
+
+O catálogo e os arquivos anexados ficam na pasta saida ao lado do executável. Mantenha o EXE em uma pasta onde você tenha permissão para gravar; não o execute diretamente de dentro de um ZIP.
+
+Funções que precisam de internet: ler playlists do YouTube, usar sua chave da API Groq e publicar no repositório GitHub escolhido. As chaves são informadas na dashboard e não devem ser coladas em conversas ou arquivos.
+
+Se a porta 8000 estiver ocupada, feche a outra instância do aplicativo antes de iniciar. O Windows SmartScreen pode exibir um aviso porque o executável de teste não tem assinatura digital.
