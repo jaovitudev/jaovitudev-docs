@@ -1,34 +1,38 @@
-💻✨ Dashboard de Estudos em Programação | Organização, Tecnologia e Inteligência Artificial
+# 🖥️ jaovitudev-docs
 
-Já imaginou ter todo o seu aprendizado em programação organizado em um só lugar? 🚀
+> 📚 **Aplicativo desktop de teste para explorar um catálogo local e recursos conectados.**
 
-Desenvolvi um Dashboard de Estudos em Programação, uma plataforma criada para facilitar a organização, o acompanhamento e a apresentação da minha jornada de aprendizado na área de tecnologia.
+Este pacote contém um executável para Windows e as instruções de uso do aplicativo.
 
-A ferramenta reúne recursos que tornam os estudos mais práticos, organizados e dinâmicos, permitindo registrar aulas, organizar conteúdos e transformar exercícios e projetos em um portfólio digital.
+## 🧰 Requisitos
 
-🌟 Principais funcionalidades
+- Windows 10 ou 11, 64 bits
+- Permissão para gravar arquivos na pasta onde o aplicativo será executado
+- Conexão com a internet para recursos online
 
-📚 Registro de aulas: cadastre e organize aulas de programação, mantendo um histórico dos conteúdos estudados.
+## ▶️ Como iniciar
 
-🎥 Organização de playlists: reúna vídeos e materiais de estudo em um só lugar, facilitando o acesso aos conteúdos.
+1. Extraia o pacote, se estiver compactado.
+2. Coloque a pasta em um local onde você tenha permissão para gravar arquivos.
+3. Abra `jaovitudev-docs.exe`.
+4. Se o navegador não abrir automaticamente, acesse `http://127.0.0.1:8000`.
+5. Para encerrar, feche a janela do aplicativo.
 
-📝 Gerenciamento de exercícios: organize atividades, códigos e desafios desenvolvidos durante o aprendizado.
+O catálogo e os arquivos anexados são gravados na pasta `saida`, ao lado do executável. Se a porta 8000 estiver ocupada, feche outra instância antes de iniciar.
 
-🤖 Inteligência Artificial com Groq: utiliza IA para identificar linguagens de programação e relacionar arquivos aos conteúdos e aulas correspondentes.
+## 🌐 Recursos conectados
 
-🐍 Identificação de linguagens: reconhece tecnologias utilizadas nos arquivos, facilitando a organização dos projetos.
+Algumas funções dependem de internet, incluindo leitura de playlists do YouTube, uso de uma chave da API Groq e publicação no repositório GitHub escolhido. Informe chaves pela dashboard e mantenha-as privadas.
 
-📂 Geração automática de README: cria um README completo para o GitHub, incluindo capas, links, informações das aulas e projetos desenvolvidos.
+## 🔐 Segurança e compatibilidade
 
-🌐 Portfólio de estudos: transforma os registros de aprendizado em uma apresentação organizada para compartilhar no GitHub.
+O Windows SmartScreen pode exibir um aviso porque o executável de teste não possui assinatura digital. O aplicativo é distribuído como executável Windows; não há código-fonte do aplicativo nesta pasta.
 
-🎯 Objetivo do projeto
+## 📁 Arquivos
 
-O principal objetivo é unir organização, automação e inteligência artificial para tornar a jornada de aprendizado em programação mais eficiente, visual e acessível.
+- `jaovitudev-docs.exe` — aplicativo desktop para Windows.
+- `LEIA-ME-jaovitudev-docs.txt` — instruções originais do pacote.
 
-🚀 O que esse projeto representa?
+## 📄 Licença
 
-Mais do que um dashboard, é uma solução que conecta programação e inteligência artificial para facilitar a organização dos estudos e valorizar cada etapa do desenvolvimento profissional.
-
-💡 A ideia é transformar o aprendizado em algo que também possa ser acompanhado, organizado e apresentado ao mundo!
-
+Nenhuma licença foi definida até o momento.
